@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>My Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div class="tv">
+        <form name="form1" class="calc1" action="calculator.html" method="post">
+            <input type="text" name="answer" id="blank"><br>
+            <input type="button" class="operator-design" value="C" onclick="form1.answer.value=' '">
+            <input type="button" class="operator-design" value="00" onclick="form1.answer.value='00'">
+            <input type="button" id="operator-design" value="del" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)"><br>
+            <input type="button" class="btn-design" value="9" onclick="form1.answer.value+='9'">
+            <input type="button" class="btn-design" value="8" onclick="form1.answer.value+='8'">
+            <input type="button" class="btn-design" value="7" onclick="form1.answer.value+='7'">
+            <input type="button" class="operator-design" value="*" onclick="form1.answer.value+='*'"><br>
+            <input type="button" class="btn-design" value="6" onclick="form1.answer.value+='6'">
+            <input type="button" class="btn-design" value="5" onclick="form1.answer.value+='5'">
+            <input type="button" class="btn-design" value="4" onclick="form1.answer.value+='4'">
+            <input type="button" class="operator-design" value="/" onclick="form1.answer.value+='/'"><br>
+            <input type="button" class="btn-design" value="3" onclick="form1.answer.value+='3'">
+            <input type="button" class="btn-design" value="2" onclick="form1.answer.value+='2'">
+            <input type="button" class="btn-design" value="1" onclick="form1.answer.value+='1'">
+            <input type="button" class="operator-design" value="-" onclick="form1.answer.value+='-'"><br>
+            <input type="button" class="btn-design" value="." onclick="form1.answer.value+='.'">
+            <input type="button" class="btn-design" value="0" onclick="form1.answer.value+='0'">
+            <input type="button" class="operator-design" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+            <input type="button" class="operator-design" value="+" onclick="form1.answer.value+='+'">
+        </form>
+    </div>
+    <script src="app.js"></script>
+    </body>
+
+</html>

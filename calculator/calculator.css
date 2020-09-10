@@ -1,0 +1,75 @@
+.tv {
+    display: block;
+    margin: 100px;
+    padding: 200px;
+}
+.calc1 {
+    margin: auto;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+    position: relative;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    background-color: rgb(173, 150, 14);
+    text-align: center;
+    border-radius: 100px;
+}
+#blank {
+   border: none; 
+   background-color: aliceblue;
+   border-radius: 30px;
+   width: 200px;
+   font-size: 0.9em;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   height: 60px;
+   margin: 10px;
+   border: 2px solid aliceblue;
+   color: black;
+}
+
+.btn-design {
+    border: none; 
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    color: black;
+    border-radius: 10px;
+}
+
+.operator-design {
+    border: none; 
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.operator-design:hover {
+    background-color: blue;
+}
+#operator-design {
+    border: none; 
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#operator-design:hover {
+    background-color: blue;
+}

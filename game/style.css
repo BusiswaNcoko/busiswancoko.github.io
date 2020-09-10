@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #232323;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+h1{
+    color: yellow;
+    line-height: 1.1;
+    text-align: center;
+    background: palevioletred;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.square {
+  width: 30%;
+  background: slateblue;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 50%;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: red;
+}
+.level {
+    color: white;
+    background-color: palevioletred;
+}
+button{
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: palevioletred;
+    background: inherit;
+    letter-spacing: 1px;
+}
+button:hover {
+    color : white;
+    background: palevioletred;
+    cursor: pointer;
+}
+#message {
+    display: inline-block;
+    width: 30%;
+}
+span{
+    color: white;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<!--------form heading----------->
+        <div class="container">
+         <header class="header">
+             <h1 class="text">Volunteer Activity Survey Form</h1>
+             <p class="text">Thank you for attending our activity and taking time to help us improve</p>
+         </header>
+
+\<!-------------Form contents--------->
+        <div class="Form-Container">
+        <form id="Survey-form" >
+            <div class="form-label">
+                <label id="name-label" for="name" >Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-label">
+                <label id="surname-label" for="surname">Surname</label>
+                <input type="text" name="surname" id="surname" class="form-control" placeholder="Enter your surname" required>
+            </div>
+
+            <div class="form-label">
+                <label id="email-label" for="email">E-mail Address</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your E-mail Address" required>
+            </div>
+
+            <div class="form-label">
+                <label id="age-number" for="age">Age <span class="clue">(optional)</span></label>
+                <input type="number" name="age" id="age" min="10" class="form-control" placeholder="Enter your age" >
+            </div>
+
+            <div class="form-label ">
+                <p>Which option describes your current role?</p>
+                <select id="dropdown" name="role" required>
+                    <option disabled selected value>Select current role</option>
+                    <option value="Worker">Fulltime Worker</option>
+                    <option value="Learner">High School Student</option>
+                    <option value="Minor">Primary School Student</option>
+                    <option value="University-Student">Varsity Student</option>
+                    <option value="PreferNo">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-label">
+                 <p>Did you have fun today?</p>
+                <label for="FunToday">
+                    <input  type="radio" name="Fun-Today">Yes I had a lot of Fun
+                </label>
+                <label for="AbitFun">
+                    <input type="radio" name="Fun-Today">Yes I had Fun <span>(a bit)</span>
+                </label>
+                <label for="NoFun">
+                    <input  type="radio" name="Fun-Today">No I did not have fun 
+                </label>
+            </div>
+            <div class="form-label">
+                <p>Would you invite your friend to our volunteer activity?</p>
+                <label for="Yes">
+                    <input  type="radio" name="FriendInvite">Yes
+                </label>
+                <label for="Maybe">
+                    <input id="Maybe" type="radio" name="FriendInvite">Maybe
+                </label>
+                <label for="No">
+                    <input  type="radio" name="FriendInvite">Not sure
+                </label>
+            </div>
+            <div class="form-label">
+                <p>What did you enjoy from your experience today?</p>
+                <textarea name="favorate" placeholder="describe your favorate part here"></textarea>
+            </div>
+            <div class="form-label">
+                <p>What would you like us to improve? <span>(any comment or suggestions)</span></p>
+                <textarea name="comment" placeholder="write your comment or suggestion here"></textarea>
+            </div>
+            <div class="form-label">
+                <label>
+                    <button type="submit">Submit</button>
+                </label>
+            </div>
+           </form>
+        </div>
+        </div> 
+       </body>
+    </html>
